@@ -1,0 +1,154 @@
+/* boiler plate for css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Babloo bhai;
+
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: #D0D4D5;
+    position: relative;
+}
+
+#nav {
+    height: 110px;
+    padding: 8px 50px;
+    width: 100%;
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav img {
+    height: 40px;
+    margin-right: 200px;
+}
+
+#nav-part1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav-part1 h4 {
+    margin-right: 90px;
+    font-size: 23px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#nav-part2 i {
+    margin-right: 34px;
+    font-size: 20px;
+    font-weight: 500;
+    display: inline-block;
+
+}
+
+#content {
+    width: 100%;
+    height: calc(100% - 110px);
+
+    display: flex;
+
+}
+
+#left {
+    width: 35%;
+    height: 100%;
+    padding: 90px 100px;
+
+}
+
+#left h5 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.694);
+}
+
+#left h1 {
+    font-size: 44px;
+    line-height: 44px;
+    margin-bottom: 40px;
+}
+
+#left p {
+    text-align: justify;
+    font-size: 15px;
+    width: 80%;
+    margin-bottom: 70px;
+}
+
+#left button {
+    background-color: black;
+    color: #fff;
+    padding: 15px 45px;
+    font-size: 16px;
+    border-radius: 40px;
+    border-top-left-radius: 0px;
+}
+
+#right {
+    width: 65%;
+    height: 100%;
+    position: relative;
+    
+    padding: 120px  ;
+    white-space: nowrap;
+    overflow-x: auto;
+
+}
+#right::-webkit-scrollbar{
+    display: none;
+}
+
+.elem {
+    height: 400px;
+    width: 320px;
+    background-color: #fff;
+    position: relative;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px;
+    
+
+}
+
+.elem img {
+    height: 60%;
+    width: 100%;
+    top: 0%;
+    object-fit: cover;
+    position: absolute;
+    color: #fff;
+}
+
+.elem h4{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #D0D4D5;
+    padding: 17px 34px;
+    border-radius: 6px;
+}
+.elem h5{
+    position: absolute;
+    bottom: 13%;
+    right: 0;
+    background-color: black;
+    color: #fff;
+    font-size: 14px;
+    padding: 17px 24px;
+    border-radius: 6px;
+}
